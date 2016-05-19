@@ -1,0 +1,39 @@
+body {
+    background: #2b4272;
+}
+.wrapper.big {
+    background: none;
+}
+#description {
+    color: #f0f0f0;
+}
+.nav ul {
+    background: none;
+}
+.nav li li {
+    background: #5b7bbe;
+}
+.nav li li:hover, .nav li li.sfhover, .nav li li.current_page_parent, .nav li li.current_page_ancestor, .nav li li.current-cat-parent, .nav li li.current-cat, .nav li li.current_page_item {
+    background: #526eab;
+}
+div#cat-nav {
+    background: #5b7bbe;
+    border-raidus: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+.post .date {
+    background: rgba(91, 123, 190, 0.15);
+}
+#footer {
+    background: #e7e9eb;
+}
+#footer a:link, #footer a:visited {
+    color: #285A86;
+}
+.footer-column {
+    color: inherit;
+}
+.footer-column h2 {
+    color: inherit;
+}

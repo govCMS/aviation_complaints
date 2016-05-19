@@ -1,0 +1,233 @@
+/*
+Theme Name: BlueSteel - govspace
+Description:  A clean theme with theme options allowing to enable featured areas, colour schemes, and more. Originally based on the Traction theme by The Theme Foundry.
+Version:  1.2
+Author:         govspace
+Author URI:     http://govspace.gov.au
+Tags: fixed-width, two-columns, dark, black, blue, right-sidebar, threaded-comments, theme-options
+*/
+
+@import url("stylesheets/master.css");
+@import url("stylesheets/screen.css");
+
+/* Required Wordpress Classes, don't remove these.
+-----------------------------------------------------------*/
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignleft { float: left; }
+.alignright { float: right; }
+
+.nav ul {
+    padding-bottom: 0;
+}
+
+#search_form label {
+    display: none;
+}
+
+.search_wrapper_tr {
+    float: right;
+}
+
+#header a.coa-link {
+    clear: both;
+}
+
+.search_wrapper_tr #search_form input#searchsubmit {
+    margin: 0;
+    padding: 6px;
+}
+
+.nav {
+    width: auto;
+}
+
+.search_wrapper_nav {
+    float: right;
+    margin-top: -6px;
+    margin-right: 7px;
+}
+
+.search_wrapper_nav #search_form input#searchsubmit {
+    margin: 0;
+    padding: 6px;
+}
+
+div.feature-top {
+    display: block;
+    height: 20px;
+    background: url(../images/feature-top.png) no-repeat top center;
+    margin-top: 20px;
+}
+
+div#feature {
+    background: url(../images/feature-body.png) repeat-y top center;
+}
+
+div.feature-bottom {
+    display: block;
+    height: 20px;
+    margin-bottom: 30px;
+    background: url(../images/feature-bottom.png) no-repeat top center;
+}
+
+div.feature-main {
+    float: left;
+    font-size: 1.3em;
+    padding: 0 20px;
+    width: 618px;
+}
+
+div.feature-main .container {
+    width: 618px;
+    position: relative;
+}
+
+div .container {
+    background-color: #e7e9eb;
+}
+
+div.feature-sidebar {
+    float: right;
+    width: 258px;
+    padding: 5px 24px 15px 20px;
+}
+
+#socialicons h2 {
+    display: none;
+}
+
+#socialicons {
+    float: right;
+    margin-top: 0.4em;
+    margin-left: 1em;
+}
+
+/* Chan changes */
+div.wrapper.big a.coa-link {
+    min-width: 200px;
+    min-height: 1em;
+}
+div#cat-nav.clear {margin-top: 1em;}
+.coa-link > img {
+    margin-top: 1em;
+}
+/*Overide to float the bar and allow contents to span header section*/
+
+.nav-float-RHS {
+    float: right;
+}
+.nav-float-RHS > li {
+    display: inline-block;
+}
+#pg-nav {
+    float: none;
+}
+#pg-nav li {
+    display: inline-block;
+}
+#pg-nav > ul {
+    float: right;
+    margin-top: -0.8em;
+}
+div.wrapper {
+    text-align: left;
+}
+#pg-nav > a {
+    color: #ddd;
+    font-size: 1.2em;
+    display: inline-block;
+}
+input#searchsubmit, #submit {
+    background: url(../images/nav.png) no-repeat top center;
+    color: #fff;
+    border: 1px solid #385c7e;
+    border-radius: 6px;
+}
+input#searchsubmit:disabled, #submit:disabled {
+    background: url(../images/navDisabled.png) no-repeat top center #8ea8bf;
+    color: #ddd;
+    border: 1px solid #8ea8bf;
+}
+.search_wrapper_tr #search_form input#searchsubmit {
+    padding:3px 6px;
+}
+
+#pg-nav .search_wrapper_tr input.search {
+    margin-right: 10px;
+}
+#pg-nav #search_form input.search {
+    margin:3px 0 2px 0;
+    padding:5px 2px;
+    width:180px;
+}
+.addthis_follow_label{
+    margin-left: 15px;
+    min-height: 3.2em;
+    min-width: 4em;
+    margin-top: 0.1em;
+}
+#pg-nav-bg {
+    padding-top: 1.3em;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .search_wrapper_tr #search_form input#searchsubmit {
+        padding:6px 9px;
+    }
+}
+#sidebar #searchform input{
+    padding: 4px;
+}
+#sidebar #searchform input#searchsubmit{
+    padding: 5px;
+    border-radius: 2px;
+}
+/* GSPACE-157 */
+form#commentform label.comment-field[for=comment] {
+    min-height: 5em;
+}
+.quicktags-toolbar {
+    background-image: none;
+    border-bottom: none;
+}
+#submit {
+    padding: 8px;
+}
+#qt_comment_toolbar {
+    background: none;
+    border: 0;
+    padding-left: 0;
+}
+.comment-form-comment label{
+    display:block;
+}
+.main-top-left {
+    float: right;
+    margin-right: 325px;
+}
+.breadcrumbs {
+    margin: 0 0 20px 22px;
+    color: #627e91;
+}
+.breadcrumbs a, .breadcrumbs span {
+    color: #ddd;
+    font-size: 1.1em;
+}
+#cat-nav #search_form input#searchsubmit {
+    background: url(../images/main-top.png) no-repeat center center;
+    color: #fff;
+    border: 1px solid #444;
+}
+#cat-nav #search_form input#searchsubmit:hover{
+    border: 1px solid #222;
+}
+#cat-nav #search_form input#searchsubmit:active, #cat-nav #search_form input#searchsubmit:focus {
+    color: #eee;
+    border: 1px solid #111;
+}
+#cat-nav #search_form input {
+    border-radius: 4px;
+}

@@ -83,17 +83,17 @@ h2.title a:active,.stickyPost h2 a:focus,
     padding-bottom: 4px;
 }
 .commentsclosed {
-    background: url(../images/lock.png) left no-repeat;
+    background: url(../../images/lock.png) left no-repeat;
 }
 td .sticky {
-    background: url(../images/rosette.png) left no-repeat;
+    background: url(../../images/rosette.png) left no-repeat;
 }
 .newpost {
     text-align: right;
     margin-top: 1em;
 }
 .newpost a {
-    background: url(../images/add.png) left no-repeat;
+    background: url(../../images/add.png) left no-repeat;
 }
 table {
     border-collapse: collapse;
@@ -106,8 +106,8 @@ table th {
 }
 table th {
     text-align: center;
-    background: url(../images/thbg.gif) repeat-x top #5E5F60;
-    background: url(../images/thbg.gif) repeat-x top #29292A;
+    background: url(../../images/thbg.gif) repeat-x top #5E5F60;
+    background: url(../../images/thbg.gif) repeat-x top #29292A;
     color: #ffffff;
     font-size: 1.2em;
     padding-top: 8px;
@@ -171,7 +171,7 @@ table tr:hover {
     text-align: right;
 }
 .categoryrssurl {
-    background: url(../images/flw-rss.png) no-repeat;
+    background: url(../../images/flw-rss.png) no-repeat;
     padding-left: 25px;
     padding-bottom: 1em;
 }
@@ -263,7 +263,7 @@ div#feature div.feature-sidebar ul.pagination li a:focus
 {
     color: #000 !important;
     background-color: #fff !important;
-    background: #f5f7fa url(../images/feature-li-bg-hover.png) repeat-x bottom left;
+    background: #f5f7fa url(../../images/feature-li-bg-hover.png) repeat-x bottom left;
 }
 #prevBtn
 {
